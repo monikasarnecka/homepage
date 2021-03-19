@@ -1,0 +1,39 @@
+body {
+    background:#74A4BC;
+}
+
+section {
+    background:#ffffff;
+}
+
+
+p {
+    color: rgb(8, 8, 8);
+}
+
+h2 {
+    color:#715B64;
+}
+
+.hotpink-header{
+    color:rgb(212, 44, 128);
+}
+
+
+
+a{
+    color:rgb(23, 33, 87) ;
+}
+
+nav a {
+    color:#083746;
+}
+h3 a {
+    color:#C6878F;
+}
+.header-first{
+    color:#19535F;
+}
+.header-third{
+    color:#C6878F;
+}
