@@ -1,39 +1,67 @@
 body {
-    background:#74A4BC;
+  background: #74a4bc;
 }
 
 section {
-    background:#ffffff;
+  background: #ffffff;
 }
 
-
 p {
-    color: rgb(8, 8, 8);
+  color: rgb(8, 8, 8);
 }
 
 h2 {
-    color:#715B64;
+  color: #715b64;
 }
 
-.hotpink-header{
-    color:rgb(212, 44, 128);
+.hotpink-header {
+  color: rgb(212, 44, 128);
 }
 
-
-
-a{
-    color:rgb(23, 33, 87) ;
+a {
+  color: rgb(23, 33, 87);
 }
 
 nav a {
-    color:#083746;
+  color: #083746;
 }
 h3 a {
-    color:#C6878F;
+  color: #c6878f;
 }
-.header-first{
-    color:#19535F;
+.header-first {
+  color: #19535f;
 }
-.header-third{
-    color:#C6878F;
+.header-third {
+    color: #c6878f;
+  }
+
+.navigation {
+  background: #143d3b;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.navigation__link {
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 20px;
+}
+.navigation__link--homepage {
+  background: rgb(90, 161, 153);
+  color: black;
+}
+
+.week-summary {
+  padding: 16px;
+  border: 5px solid;
+  margin-top: 20px;
+  border-color: #405c69;
+}
+
+.week-summary__title {
+  color: #c6878f;
+}
+
+.week-summary__descrition {
+  color: black;
 }
