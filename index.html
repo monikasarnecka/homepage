@@ -18,16 +18,16 @@
         <a class="navigation__link" href="JS.html">Java Script</a>
       </nav>
     </header>
-    <main>
-      <header id="top">
-        <h1 class="header-first header-first--js">
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="header__first header__first--js" id="name">
           Monika Sarnecka - Strona domowa w ramach nauki WTF
         </h1>
       </header>
 
-      <section>
-        <h2 class="hotpink-header">Czym jest Frontend</h2>
-        <p>
+      <section class="about">
+        <h2 class="about__heading">Czym jest Frontend</h2>
+        <p class="about__description">
           Jeśli serwis WWW podzielimy na to, co widzi każdy użytkownik po
           wpisaniu domeny w wyszukiwarce i na to, czego <em>nie zobaczy na</em>
           <i>pierwszy rzut oka</i>, to frontend to ta widoczna część strony.
@@ -38,26 +38,26 @@
           możliwości strony, które pozwalają użytkownikowi na możliwie
           maksymalną interakcję. Interfejs strony, menu, grafiki, animacje,
           układ tekstu – te wyniki front-end zaciąga i wyświetla z backendu i to
-          finalnie widzimy na ekranie monitora lub smartfona.<a
+          finalnie widzimy na ekranie monitora lub smartfona.<a class="about__link"
             href="#szkolenie"
             >Przejdź do szkolenia</a
           >
         </p>
       </section>
 
-      <section id="szkolenie">
-        <h2>
+      <section class="notes" id="notatki">
+        <h2 class="notes__heading">
           Czego sie nauczyłam na szkoleniu
-          <a href="https://cotenfrontend.pl">WTF?</a>
+          <a class="notes__link" href="https://cotenfrontend.pl">WTF?</a>
         </h2>
-        <img
+        <img class="notes__picture"
           src="ilustracja-zolta-gumowa-kaczka-na-wodzie_23-2148278476.jpg"
           alt="żółta kaczka"
           width="400"
           height="400"
         />
       </section>
-      <section>
+      <section class="week">
         <article class="week-summary">
           <h3 class="week-summary__title">"Lekcja 1-HTML</h3>
           <p class="week-summary__descrition"><b>'section'</b> - sekcje dokumentu</p>
@@ -69,14 +69,14 @@
           <p class="week-summary__descrition"><b>'footer'</b>- stopka</p>
         </article>
       </section>
-      <section>
+      <section class="week">
         <article class="week-summary">
           <h3 class="week-summary__title">Lekcja 2-CSS</h3>
           <p class="week-summary__descrition> <strong>'style'</strong> - wpisujemy w części head</p>
-          <p class="week-summary__descrition>przykład h1{color:blue;} - zmini nam kolor nagłówka h1</p>
+          <p class="week-summary__descrition> przykład h1{color:blue;} - zmini nam kolor nagłówka h1</p>
         </article>
       </section>
-      <section>
+      <section class="week">
         <article class="week-summary">
           <h3 class="week-summary__title">Lekcja 3-Java Script</h3>
           <p class="week-summary__descrition">
@@ -86,35 +86,35 @@
         </article >
       </section>
 
-      <section>
+      <section class="week">
         <article class="week-summary">
           <nav>
-            <h3 class="week-summary__title"><a href="html2.html">Lekcja 4-HTML 2</a></h3>
+            <h3 class="week-summary__title"><a class="week__link" href="html2.html">Lekcja 4-HTML 2</a></h3>
           </nav>
           <p class="week-summary__descrition">Opis lekcji w powyższym linku</p>
         </article>
       </section>
 
-      <section>
+      <section class="week">
         <article class="week-summary">
           <nav>
-            <h3 class="week-summary__title"><a href="css2.html">Lekcja 5-CSS2</a></h3>
+            <h3 class="week-summary__title"><a class="week__link" href="css2.html">Lekcja 5-CSS2</a></h3>
           </nav>
           <p class="week-summary__descrition">Opis lekcji w powyższym linku</p>
         </article>
       </section>
 
-      <section>
+      <section class="week">
         <article class="week-summary">
           <nav>
-            <h3 class="week-summary__title"><a href="JS.html">Lekcja 6-Java Script</a></h3>
+            <h3 class="week-summary__title"><a class="week__link" href="JS.html">Lekcja 6-Java Script</a></h3>
           </nav>
           <p class="week-summary__descrition">Opis lekcji w powyższym linku</p>
         </article>
       </section>
     </main>
-    <footer>
-      Strona domowa Moniki Sarneckiej <a href="#top">Wróć na górę strony</a>
+    <footer class="footer">
+      Strona domowa Moniki Sarneckiej <a class="footer__link" href="#top">Wróć na górę strony</a>
     </footer>
 
     <script src="main.js"></script>

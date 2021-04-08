@@ -10,37 +10,14 @@ p {
   color: rgb(8, 8, 8);
 }
 
-h2 {
-  color: #715b64;
-}
 
-.hotpink-header {
-  color: rgb(212, 44, 128);
-}
 
-a {
-  color: rgb(23, 33, 87);
-}
-
-nav a {
-  color: #083746;
-}
-h3 a {
-  color: #c6878f;
-}
-.header-first {
-  color: #19535f;
-}
-.header-third {
-    color: #c6878f;
-  }
 
 .navigation {
   background: #143d3b;
   padding: 16px;
   border-radius: 8px;
 }
-
 .navigation__link {
   color: #ffffff;
   display: inline-block;
@@ -49,6 +26,38 @@ h3 a {
 .navigation__link--homepage {
   background: rgb(90, 161, 153);
   color: black;
+}
+
+.main {
+  max-width:1000px;
+  margin: 0 auto;
+}
+
+.header__first {
+  color: #19535f;
+}
+
+
+.about__heading {
+  color:#c6878f;
+  
+  background: #ffffff;
+}
+.about__description{
+  color: black;
+}
+.about__link{
+  color: rgb(30, 46, 136);
+}
+
+.notes__heading{
+  color:#c6878f;
+}
+.notes__link{
+  color: rgb(30, 46, 136);
+}
+.notes__picture{
+
 }
 
 .week-summary {
@@ -65,3 +74,17 @@ h3 a {
 .week-summary__descrition {
   color: black;
 }
+.week__link{
+  color:#c6878f;
+}
+
+.footer{
+  max-width:1000px;
+  margin: 0 auto;
+}
+.footer__link{
+  color: black;
+}
+
+
+

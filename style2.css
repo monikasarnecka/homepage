@@ -1,6 +1,4 @@
-h1 {
-  color: #19535f;
-}
+
 body {
   background: #74a4bc;
 }
@@ -8,13 +6,41 @@ body {
 section {
   background: white;
 }
-h2 {
-  color: #715b64;
+
+
+.navigation2 {
+  color: #083746;
 }
-h3 {
+.navigation2__link {
+  color: #073b4d; 
+}
+
+
+.header__first2{
+  color: #19535f;
+}
+
+.about2__heading {
+  color: #9e6a7c;
+}
+.about__picture{
+
+}
+
+.week-summary {
+ 
+}
+.week-summary__title {
   color: #c6878f;
 }
 
-nav a {
-  color: #083746;
+.week-summary__descrition {
+  color: black;
+}
+
+.footer2{
+  color: black;
+}
+.footer2__link{
+  color: black;
 }
