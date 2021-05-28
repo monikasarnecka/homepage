@@ -76,3 +76,26 @@ const humanTwo = {
 console.log(humanOne);
 console.log(humanTwo);
 
+
+
+if ('Java' != 'JavaScript') {
+    console.log ('Java to JavaScript')
+}
+
+const button = document.querySelector('.action--js');
+console.log(button)
+
+button.addEventListener('click', () => {
+    const heading=document.querySelector(".header__first--js");
+    heading.innerHTML='Witaj Drogi Odwiedzający, nazywam się Monika';
+console.log (heading.classList.contains ('header__first'));
+});
+
+
+const hamburger = document.querySelector ('.hamburger--js');
+
+hamburger.addEventListener('click',() =>{
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+})
+
